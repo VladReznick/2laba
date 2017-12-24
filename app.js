@@ -3,7 +3,7 @@ var bodyParser = require("body-parser");
 var mongodb = require('mongodb');
 var mongoClient = mongodb.MongoClient;
 var app = express();
-
+ 
 app.use(express.static(__dirname));
 
 const MONGO_URL = 'mongodb://localhost:27017/tasksdb';  //Change for your mongodb
